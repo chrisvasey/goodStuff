@@ -22,6 +22,9 @@ a {
 .intro h1 span {
   text-decoration: underline;
 }
+.bodyText {
+  margin-top: 50px;
+}
 .bodyText p {
   font-size: 18px;
 }
@@ -31,12 +34,20 @@ a {
   margin-right: auto;
   max-width: 250px;
   width: 80%;
+  margin-top: 10px;
 }
 .bodyText h3.me {
   margin-top: 0px;
   text-align: center;
   font-weight: 900;
   color: #189BA3;
+}
+.bodyText span {
+  color: #189BA3;
+  font-weight: 900;
+}
+.bodyText span a {
+  text-decoration: underline;
 }
 form input {
   width: 100%;
